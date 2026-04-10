@@ -1,0 +1,1 @@
+{\n  "$schema": "https://turbo.build/schema.json",\n  "pipeline": {\n    "build": {\n      "dependsOn": ["^build"],\n      "outputs": ["dist/**"]\n    },\n    "lint": {\n      "outputs": []\n    },\n    "test": {\n      "dependsOn": ["build"],\n      "outputs": []\n    }\n  }\n}
