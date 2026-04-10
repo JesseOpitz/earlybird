@@ -1,0 +1,7 @@
+# pnpm workspace configuration
+
+packages:
+  - 'apps/web'
+  - 'apps/api'
+  - 'apps/worker'
+  - 'packages'
